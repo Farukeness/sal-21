@@ -4,6 +4,7 @@ karakterler = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123
 sayi = int(input("Kaç karakterler bir şifre oluşturmak istiyorsunuz?"))
 
 sifre = ""
+print("deneme")
 
 for i in range(sayi):
     sifre = sifre + random.choice(karakterler)
